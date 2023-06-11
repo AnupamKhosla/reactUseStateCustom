@@ -5,7 +5,7 @@ Simplified reverse engineering of useState hook in react
  
  #### Code:
  
- 
+```
 const manualRerender = () => {
   hookCount = -1; //recount total hook initializations on every render
   root.render(<App />);
@@ -52,3 +52,4 @@ function App(props) {
 
 const root = ReactDOM.createRoot(document.getElementById("app"));
 root.render(<App />);
+```
