@@ -3,7 +3,9 @@ Simplified reverse engineering of useState hook in react
 
  ### Demo: https://jsfiddle.net/fx4Ltdzm/
  
- #### Code:
+ #### Complete hooks reverse engineering https://medium.com/swlh/learn-by-implementing-reacts-usestate-and-useeffect-a-simplified-overview-ea8126705a88
+ 
+ #### My Code:
  
 ```
 const manualRerender = () => {
